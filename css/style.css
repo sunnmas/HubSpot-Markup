@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(245, 248, 250);
+}
+
+ul {
+    padding-left: 0;
+}
+
+main {
+    font-family: Actor;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.375rem;
+    margin: 20px 0;
+}
+
+h5 {
+    text-decoration: capitalize;
+    position: relative;
+    margin: 20px 0;
+}
+
+h5:after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    margin-left: 10px;
+    border-bottom: 1px solid #e0e6ed;
+    top: 4px;
+    width: 75%;
+}
+
+.button {
+    background-color: #ff7a59;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.check-points li {
+    display: inline;
+    font-size: 0.75rem;
+    line-height: 20px;
+    margin-right: 16px;
+}
+
+.check-points li:before {
+    content: "";
+    background-image: url('../images/checkmark.svg');
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 8px;
+}
+
+.sub-feature {
+    padding: 2em;
+    background-color: white;
+    display: inline-block;
+    border-radius: 4px;
+    flex-grow: 34px;
+}
+
+.sub-feature img {
+    height: 150px;
+}
